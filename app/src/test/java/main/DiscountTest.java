@@ -17,7 +17,7 @@ public class DiscountTest {
 		}
 
 		@Test
-		public void testAgeHasDiscount() throws Throwable {
+		public void testAgeHasDiscount1() throws Throwable {
 			Identity identity = new Identity(10, true, false);
 			Discount discount = new Discount(identity, dateTime);
 			Assertions.assertEquals(0.5, discount.getDiscount());
