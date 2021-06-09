@@ -46,6 +46,8 @@ public class InputNormalization {
                     method.invoke(null);
                 }
                 break;
+            default:
+                break;
         }
     }
 
